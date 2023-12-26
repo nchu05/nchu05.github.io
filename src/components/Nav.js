@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
@@ -8,12 +9,12 @@ const Nav = () => {
                     <h3>Nathan Chu</h3>
                 </a>
                 <div className="nav-links">
-                    <a href="/" className="nav-link">
+                    <Link to="/" className="nav-link">
                         Home
-                    </a>
-                    <a href="/projects" className="nav-link">
+                    </Link>
+                    <Link to="/projects" className="nav-link">
                         Projects
-                    </a>
+                    </Link>
                 </div>
             </div>
         </nav>

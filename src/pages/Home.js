@@ -15,7 +15,7 @@ const Home = () => {
                         <h2>CS major. Android developer. Problem solver.</h2>
                         <Icons/>
                     </div>
-                <img className="img" src="public/me2.jpg" alt="me" />
+                <img className="img" src="/me2.jpg" alt="me" />
                 </div>
                 <h4>
                     My name is Nathan, and I'm studying Computer Science at Cornell University. I'm interested in constantly 
