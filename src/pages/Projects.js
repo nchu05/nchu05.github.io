@@ -24,6 +24,18 @@ const projects = [
         des: "Combines artificial intelligence and behavioral monitoring to allow caretakers to track and monitor abnormalities in their patient’s health through efficient reporting and real-time alerts.",
         techs: ["Android Studio", "Kotlin", "Jetpack Compose"],
         img: "/Aeyesafe.png",
+    },
+    {
+      title: "Spotify Manager",
+      des: "Utilizes ReactJS, Javascript, HTML, CSS, and the Spotify API to display albums in a user-friendly interface.",
+      techs: ["ReactJS", "Javascript", "HTML", "CSS"],
+      img: "/spotify.png",
+    },
+    {
+      title: "ML Assertion Finder",
+      des: "Tool to log approximate assertion tests in projects that utilize common ML libraries.",
+      techs: ["Python", "Abstract Syntax Trees"],
+      img: "/MLProject.png"
     }
 ]
 const Project = (props) => {
