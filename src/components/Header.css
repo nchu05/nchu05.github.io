@@ -1,0 +1,25 @@
+.header-nav {
+  @apply flex items-start text-neutral-500 justify-end space-x-6 py-0.5;
+  font-size: 1rem; /* Smaller than text-lg */
+}
+
+.page-title {
+  @apply font-light;
+}
+
+@media (max-width: 580px) {
+  .page-title {
+    @apply block;
+    font-size: 1.125rem; /* Smaller than text-xl */
+  }
+
+  .page-title span:first-child {
+    @apply hidden;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-nav {
+    @apply flex-col items-end space-x-0;
+  }
+}

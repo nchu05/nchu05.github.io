@@ -1,39 +1,38 @@
 import React from 'react';
-import Nav from '../components/Nav'
-import Icons from '../components/Icon'
-import Footer from '../components/Footer'
+import Seo from '../components/Seo';
 
 const Home = () => {
-    return(
-        <div className="page">
-            <div className="half"></div>
-            <Nav/>
-            <div className="intro">
-                <div className="intro-pic">
-                    <div>
-                        <h1>Hi, I'm Nathan! 👋</h1>
-                        <h2>CS major. Android developer. Problem solver.</h2>
-                        <Icons/>
-                    </div>
-                <img className="img" src="/me2.jpg" alt="me" />
-                </div>
-                <h4>
-                    My name is Nathan, and I'm studying Computer Science at Cornell University. I'm interested in constantly 
-                    <br/> finding ways to <span className="highlight"> improve myself</span>, <span className="highlight"> learn new 
-                    concepts</span>, and use computer science to <span className="highlight"> produce positive change</span>.
-                    <br/>
-                    <br/>
-                    I'm excited for the potential of <span className="highlight">Android development</span>. With the 
-                    rise of artificial intelligence and machine<br/> learning, there's a lot of room for app development and the ability
-                    for mobile applications to <span className="highlight">tell the story</span> <br/>of a company.
-                    <br/>
-                    <br/>
-                    I also love meeting new people, so please feel free to message or email me at nwc35@cornell.edu!
-                </h4>
-            </div>
-            <Footer/>
+  return (
+    <>
+      <Seo
+        title="Nathan Chu"
+      />
+      <div className="layout-md text-lg space-y-14 my-10">
+        <div className="space-y-5">
+          <p>
+            Hi! My name is Nathan. I study at Cornell University, where I am pursuing a B.S. in Computer Science.
+          </p>
+          <p>
+            I am interested in software engineering, distributed systems, and systems programming.
+          </p>
+          <p>
+            This summer, I was an SDE intern on the Bedrock team at {' '}
+            <a className="link" href="https://aws.amazon.com/bedrock/?sec=aiapps&pos=2">
+              Amazon Web Services (AWS)
+            </a>
+            . Last summer, I interned at{' '}
+            <a className="link" href="https://www.niagarawater.com/">
+              Niagara Bottling
+            </a>
+            .
+          </p>
+          <p>
+            Some of my other interests include rock climbing, running, and reading philosophy.
+          </p>
         </div>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;

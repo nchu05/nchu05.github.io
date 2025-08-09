@@ -1,320 +1,57 @@
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color:#ffffff
+/* Clean App.css - no boxes, matching original Svelte styling */
+
+.App {
+  text-align: left;
 }
 
-h2 {
-  font-weight: 700;
-  color:#ffffff;
-  font-size: 1.5rem;
+/* Remove any default margins and ensure clean layout */
+* {
+  box-sizing: border-box;
 }
 
-h3 {
-  font-size: 2rem;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 30px 0 30px 0;
+/* Ensure no background colors or boxes */
+body, html, #root, .App {
+  background: white;
+  color: inherit;
 }
 
-h4 {
-  font-weight: 700;
-  color:#ffffff;
-  font-size: 1.15rem;
-  flex-flow: row wrap;
-  justify-content: center;
+/* Remove any default button or form styling that might create boxes */
+button, input, textarea, select {
+  background: transparent;
+  border: none;
+  outline: none;
 }
 
-.intro-top {
-  display:flex;
-  flex-flow: row wrap;
-  gap: 150px;
-}
-
-.intro-pic {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 80px;
-}
-
-p {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
+/* Ensure links don't have boxes */
 a {
-  color: #3f3f3f;
+  background: transparent;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.3rem;
-
-  &:hover {
-    transform: scale(1.1);
-  }
 }
 
-nav {
-  width: 100%;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding: 5px;
-  height: 80px;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background: #f0f0f0;
-  z-index: 10;
+a:hover {
+  text-decoration: none;
 }
 
-.nav-w {
-  @media screen and (max-width: 900px) {
-    display: none;
-  }
-
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  width: 100%;
-  max-width: 1120px;
-  padding: 80px 0px 100px 0;
+/* Remove any default list styling */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.nav-links {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+/* Ensure no borders or backgrounds on common elements */
+div, section, article, header, footer, main {
+  background: transparent;
+  border: none;
 }
 
-.highlight {
-  background: linear-gradient(to bottom, transparent 90%, #ADD8E6 50%);
-
-  &:hover {
-    cursor: pointer;
-
-    background: #ADD8E6;
-  }
+/* Remove any focus outlines that might create boxes */
+*:focus {
+  outline: none;
 }
 
-.intro {
-  display: flex-column;
-  margin: 10px;
-  gap: 40px;
-  padding: 50px 0px 0px 250px;
-}
-
-.half {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
-  width: 100%;
-  gap: 10px;
-  background: #f0f0f0;
-  padding: 10px 0;
-}
-
-.page {
-  display: flex;
-  flex-flow: column nowrap;
-  background:#3f3f3f;
-}
-
-.icons {
-  padding: 10px 0 30px 0;
-  display: flex;
-  flex-flow: row;
-  gap: 20px;
-  align-items: center;
-
-  color: rgb(186, 238, 255);
-
-  & > *:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    color: rgb(186, 238, 255);
-  }
-}
-
-footer {
-  background: rgb(186, 238, 255);
-  color: #212121;
-  padding: 10px 50px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.footer-icons {
-  display: flex;
-  flex-flow: row;
-  gap: 20px;
-  align-items: center;
-
-  color: rgb(67, 67, 67);
-
-  & > *:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-  }
-}
-
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 0px;
-  margin: 20px 0;
-}
-
-.img {
-  width: 100%;
-  max-width: 300px;
-  height: 50%;
-  border-radius: 5%;
-}
-
-.projects {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
-  gap: 40px;
-  justify-content: center;
-  position: relative;
-  margin-top: 80px;
-  max-width: 1200px;
-}
-
-.project {
-  background: #fda5a5;
-  color: #212121;
-  padding: 45px;
-  border-radius: 40px;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 15px;
-
-  width: 100%;
-  max-width: 500px;
-
-  position: relative;
-  z-index: 1;
-
-  & > a {
-    color: #a70000;
-    font-weight: 600;
-    &:hover {
-      transform: none;
-      font-weight: 700;
-      transform: scale(1);
-
-      cursor: pointer;
-      border-bottom: none;
-    }
-  }
-}
-
-.p-title {
-  font-size: 2rem;
-  font-weight: 900;
-  max-width: 90%;
-  color: rgb(186, 238, 255);
-}
-
-.gh-icon {
-  position: relative;
-  right: 1px;
-  top: 8px;
-  color: rgb(186, 238, 255);
-
-  &:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    color: rgb(186, 238, 255);
-  }
-}
-
-.stack {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.proj {
-  width: 100%;
-  max-width: 550px;
-  height: auto;
-  padding: 5%;
-  color: #fff;
-}
-
-.proj-img {
-  width: auto;
-  height: 100%;
-  max-height: 500px;
-  max-width: 550px;
-  max-width: 100%;
-  padding: 10px;
-}
-
-.p-link {
-  color: rgb(186, 238, 255);
-}
-
-.p-title {
-  font-size: 2rem;
-  font-weight: 900;
-  max-width: 90%;
-}
-
-.p-des {
-  font-size: 0.9rem;
-  color: #fff;
-  max-width: 500px;
-}
-
-.techs {
-  padding-top: 20px;
-  display: flex;
-  flex-flow: row wrap;
-  gap: 5px;
-  width: 100%;
-}
-.tech {
-  background: rgb(186, 238, 255);
-  border-radius: 40px;
-  padding: 10px;
-  color: #000000;
-  font-size: 0.9rem;
-  font-weight: bold;
-
-  &:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    background: #747474;
-  }
+/* Ensure proper text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

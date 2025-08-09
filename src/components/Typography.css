@@ -1,0 +1,61 @@
+/* Fine-tune typography to match the original Svelte version */
+
+/* Main content paragraphs */
+.layout-md p {
+  font-family: 'Newsreader', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+/* Publication titles and links */
+.publication-title {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Publication authors */
+.publication-authors {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+/* Publication venue */
+.publication-venue {
+  font-size: 0.85rem;
+}
+
+/* Writing list items */
+.writing-title {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Resume sections */
+.resume-title {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.resume-company {
+  font-size: 0.9rem;
+}
+
+.resume-dates {
+  font-size: 0.85rem;
+}
+
+/* Header adjustments */
+.header-title {
+  font-size: 1.375rem; /* Slightly smaller than 2xl */
+  font-weight: 700;
+}
+
+/* Reduce spacing slightly */
+.space-y-14 > * + * {
+  margin-top: 3rem; /* Slightly less than the default */
+}
+
+.space-y-5 > * + * {
+  margin-top: 1rem; /* Slightly less than the default */
+}

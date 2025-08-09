@@ -1,10 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/newsreader/400-italic.css';
+@import '@fontsource/newsreader/400.css';
+
+@layer base {
+  hr {
+    @apply border-neutral-200;
+  }
+}
+
+@layer components {
+  .link {
+    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+    @apply hover:text-black hover:decoration-black transition-colors;
+    @apply dark:hover:text-white dark:hover:decoration-white;
+  }
+
+  .layout-md {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
+
+  .heading2 {
+    @apply text-black text-xl font-semibold mb-4;
+  }
+}
+
+html {
+  @apply motion-safe:scroll-smooth;
+}
+
 body {
+  @apply py-12 sm:py-24 md:py-32 text-neutral-700;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Newsreader', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  /* Base font size, smaller than default */
+}
+
+::selection {
+  @apply bg-neutral-200 dark:bg-neutral-600;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Adjust font sizes to be smaller */
+.text-lg {
+  font-size: 1rem !important;
+  /* Instead of 1.125rem */
+  line-height: 1.5rem !important;
+}
+
+.text-xl {
+  font-size: 1.125rem !important;
+  /* Instead of 1.25rem */
+  line-height: 1.625rem !important;
+}
+
+.text-2xl {
+  font-size: 1.375rem !important;
+  /* Instead of 1.5rem */
+  line-height: 1.875rem !important;
+}
+
+/* Make sure paragraphs use the right font */
+p {
+  font-family: 'Newsreader', serif;
+}
+
+/* Headers should be sans-serif like the original */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 code {

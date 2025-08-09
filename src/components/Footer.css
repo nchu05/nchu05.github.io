@@ -1,0 +1,12 @@
+.footer-row {
+  @apply flex items-center space-x-4;
+  font-size: 1rem; /* Smaller than text-lg */
+}
+
+.footer-row a {
+  @apply text-neutral-500 min-w-fit;
+}
+
+.footer-row hr {
+  @apply w-full mt-0.5 border-neutral-300 border-dotted;
+}
