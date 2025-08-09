@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.085fa956.css",
-    "main.js": "/static/js/main.e507c238.js",
+    "main.css": "/static/css/main.3dd97c92.css",
+    "main.js": "/static/js/main.ad2a8830.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/newsreader-latin-400-italic.woff": "/static/media/newsreader-latin-400-italic.45c867a0e4b47fae4c3c.woff",
+    "static/media/newsreader-latin-400-normal.woff": "/static/media/newsreader-latin-400-normal.67c117e97494d0d5613c.woff",
+    "static/media/newsreader-latin-400-italic.woff2": "/static/media/newsreader-latin-400-italic.e313b336357bcb2f1c5a.woff2",
+    "static/media/newsreader-latin-400-normal.woff2": "/static/media/newsreader-latin-400-normal.d15dc4f7e33bc5143fa2.woff2",
+    "static/media/newsreader-latin-ext-400-italic.woff": "/static/media/newsreader-latin-ext-400-italic.f259e4d085e245513fef.woff",
+    "static/media/newsreader-latin-ext-400-normal.woff": "/static/media/newsreader-latin-ext-400-normal.78fdfba4a8d07cdc429b.woff",
+    "static/media/newsreader-latin-ext-400-italic.woff2": "/static/media/newsreader-latin-ext-400-italic.895b52f8863c69027645.woff2",
+    "static/media/newsreader-latin-ext-400-normal.woff2": "/static/media/newsreader-latin-ext-400-normal.445a23a641d5c51b28f1.woff2",
+    "static/media/newsreader-vietnamese-400-italic.woff": "/static/media/newsreader-vietnamese-400-italic.4338b1be1b3894199c12.woff",
+    "static/media/newsreader-vietnamese-400-normal.woff": "/static/media/newsreader-vietnamese-400-normal.d1ab200139b55343f5b6.woff",
+    "static/media/newsreader-vietnamese-400-italic.woff2": "/static/media/newsreader-vietnamese-400-italic.3d0d5fc8c6edf70bd540.woff2",
+    "static/media/newsreader-vietnamese-400-normal.woff2": "/static/media/newsreader-vietnamese-400-normal.76f7e539d2e0361b6a7e.woff2",
     "index.html": "/index.html",
-    "main.085fa956.css.map": "/static/css/main.085fa956.css.map",
-    "main.e507c238.js.map": "/static/js/main.e507c238.js.map",
+    "main.3dd97c92.css.map": "/static/css/main.3dd97c92.css.map",
+    "main.ad2a8830.js.map": "/static/js/main.ad2a8830.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.085fa956.css",
-    "static/js/main.e507c238.js"
+    "static/css/main.3dd97c92.css",
+    "static/js/main.ad2a8830.js"
   ]
 }
