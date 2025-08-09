@@ -12,14 +12,16 @@ export const projectData = [
     start_month: "08-2024",
     end_month: "12-2024",
     slug: "in-memory-database",
-    tags: ["systems", "c++", "tcp"]
+    tags: ["systems", "c++", "tcp"],
+    link: "https://github.com/CornellDataScience/imdb"
   },
   {
     title: "Data Quality Research with Millennium Management",
     start_month: "08-2024",
     end_month: "05-2025",
     slug: "data-quality-with-millennium-management",
-    tags: ["python", "pandas"]
+    tags: ["python", "pandas"],
+    link: "https://github.com/nchu05/millennium-data-quality"
   },
   {
     title: "CaddieAI",
@@ -33,6 +35,7 @@ export const projectData = [
     start_month: "11-2023",
     end_month: "12-2023",
     slug: "latte-link",
-    tags: ["android studio", "kotlin"]
+    tags: ["android studio", "kotlin"],
+    link: "https://github.com/nchu05/Latte-Link"
   }
 ];
