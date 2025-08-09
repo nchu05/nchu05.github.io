@@ -6,8 +6,7 @@ const Header = () => {
   const location = useLocation();
 
   const links = [
-    { name: "writing", href: "/writing" },
-    { name: "publications", href: "/publications" },
+    { name: "projects", href: "/projects" },
     { name: "resume", href: "/resume" },
   ];
 

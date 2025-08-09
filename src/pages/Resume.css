@@ -1,11 +1,59 @@
+/* Resume-specific styling for consistent layout */
+
 b {
   @apply font-bold;
 }
 
+/* Consistent list styling */
 ul {
   @apply list-disc pl-7 marker:text-neutral-400;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.25rem;
 }
 
+ul li {
+  margin-bottom: 0.25rem;
+}
+
+/* Consistent byline styling */
 .byline {
   @apply font-serif italic;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+/* Consistent section spacing */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Consistent heading spacing */
+.heading2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Consistent subsection heading spacing */
+h4.font-medium {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* Consistent education section spacing */
+.education-section {
+  margin-bottom: 1rem;
+}
+
+/* Consistent date styling */
+.resume-date {
+  font-size: 0.9rem;
+  color: rgb(115, 115, 115);
+}
+
+/* In-progress dates styling */
+.date-current {
+  font-size: 0.8rem;
+  color: rgb(156, 163, 175); /* More grayed out */
 }

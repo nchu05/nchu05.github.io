@@ -51,6 +51,10 @@ body {
   color-scheme: dark;
 }
 
+ul {
+  font-size: 0.5rem;
+}
+
 /* Adjust font sizes to be smaller */
 .text-lg {
   font-size: 1rem !important;

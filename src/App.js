@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Publications from './pages/Publications';
-import Writing from './pages/Writing';
+import Project from './pages/Project';
 import Resume from './pages/Resume';
 import './App.css';
 import './components/Typography.css';
@@ -79,8 +78,7 @@ function App() {
         <MainContent>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/publications" element={<Publications />} />
-            <Route path="/writing" element={<Writing />} />
+            <Route path="/projects" element={<Project />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </MainContent>
