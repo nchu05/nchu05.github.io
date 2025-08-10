@@ -12,7 +12,7 @@ export const projectData = [
     start_month: "08-2024",
     end_month: "12-2024",
     slug: "in-memory-database",
-    tags: ["systems", "c++", "tcp"],
+    tags: ["c++", "tcp", "systems programming"],
     link: "https://github.com/CornellDataScience/imdb"
   },
   {
@@ -20,7 +20,7 @@ export const projectData = [
     start_month: "08-2024",
     end_month: "05-2025",
     slug: "data-quality-with-millennium-management",
-    tags: ["python", "pandas"],
+    tags: ["python", "pandas", "object-oriented programming"],
     link: "https://github.com/nchu05/millennium-data-quality"
   },
   {

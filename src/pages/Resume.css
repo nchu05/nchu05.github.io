@@ -18,7 +18,7 @@ ul li {
 
 /* Consistent byline styling */
 .byline {
-  @apply font-serif italic;
+  font-style: italic;
   font-size: 0.95rem;
   margin-top: 0.25rem;
 }

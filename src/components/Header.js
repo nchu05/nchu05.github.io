@@ -26,7 +26,7 @@ const Header = () => {
         <a href="/">Nathan Chu</a>
         {pageTitle && (
           <span className="page-title">
-            <span className="text-neutral-400">—</span>
+            <span className="text-neutral-400"> — </span>
             {pageTitle}
           </span>
         )}

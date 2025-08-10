@@ -51,9 +51,7 @@ body {
   color-scheme: dark;
 }
 
-ul {
-  font-size: 0.5rem;
-}
+/* Remove the problematic ul font-size override */
 
 /* Adjust font sizes to be smaller */
 .text-lg {
@@ -74,21 +72,9 @@ ul {
   line-height: 1.875rem !important;
 }
 
-/* Make sure paragraphs use the right font */
-p {
-  font-family: 'Newsreader', serif;
-}
-
-/* Headers should be sans-serif like the original */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+/* Make all text use the same font */
+p, h1, h2, h3, h4, h5, h6, ul, li, a, span, div {
+  font-family: 'Newsreader', serif !important;
 }
 
 code {

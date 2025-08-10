@@ -54,7 +54,7 @@ const Resume = () => {
           dates="May 2025 – August 2025"
           location="Seattle, WA"
         >
-          <li>Bedrock Provider Commerce</li>
+          <li>Developed infra for Bedrock Provider Commerce billing</li>
         </Workplace>
 
         <Workplace
@@ -64,7 +64,7 @@ const Resume = () => {
           dates="May 2024 – August 2024"
           location="Los Angeles, CA"
         >
-          <li>LLM for Asset Management</li>
+          <li>Worked on LLM, RAG, and fine-tuning for Asset Management team</li>
         </Workplace>
 
         <Workplace
@@ -74,7 +74,7 @@ const Resume = () => {
           dates="September 2023 – April 2024"
           location="Seattle, WA (Remote)"
         >
-          <li>Backend development</li>
+          <li>Created RESTful APIs and ETL pipeline for startup</li>
         </Workplace>
       </section>
     </>
