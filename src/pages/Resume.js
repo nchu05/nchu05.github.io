@@ -34,9 +34,9 @@ const Resume = () => {
           <li>CS 2800 — Discrete Structures</li>
           <li>CS 3110 — Data Structures and Functional Programming</li>
           <li>CS 3410 — Computer System Organization and Programming</li>
+          <li>CS 4414 — Systems Programming *</li>
           <li>CS 4820 — Introduction to Analysis of Algorithms</li>
           <li>CS 4850 — Probability, Vectors, and Matrices in Computing (Randomized Algorithms)</li>
-          <li>CS 4414 — Systems Programming *</li>
           <li>CS 5414 — Distributed Computing Principles *</li>
           <li>BTRY 3080 — Probability and Statistics</li>
           <li>MATH 2940 — Linear Algebra</li>
@@ -46,6 +46,15 @@ const Resume = () => {
 
       <section className="layout-md">
         <h2 className="heading2">Professional Experience</h2>
+        <Workplace
+          title="Incoming Software Engineer Intern"
+          company="Datadog"
+          url="https://www.datadoghq.com/"
+          dates="January 2026 – April 2026"
+          location="New York City, NY"
+        >
+          <li>Winter/Spring 2026</li>
+        </Workplace>
 
         <Workplace
           title="Software Development Engineer Intern"
@@ -54,7 +63,7 @@ const Resume = () => {
           dates="May 2025 – August 2025"
           location="Seattle, WA"
         >
-          <li>Developed infra for Bedrock Provider Commerce billing</li>
+          <li>Developed billing infrastructure for Bedrock Provider Commerce team</li>
         </Workplace>
 
         <Workplace
@@ -74,7 +83,7 @@ const Resume = () => {
           dates="September 2023 – April 2024"
           location="Seattle, WA (Remote)"
         >
-          <li>Created RESTful APIs and ETL pipeline for startup</li>
+          <li>Created RESTful APIs and ETL pipeline for a healthcare startup</li>
         </Workplace>
       </section>
     </>

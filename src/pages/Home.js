@@ -17,13 +17,14 @@ const Home = () => {
               I am interested in software engineering, distributed systems, and systems programming.
             </p>
             <p>
-              This summer, I was an SDE intern on the Bedrock team at {' '}
-              <a className="link" href="https://aws.amazon.com/bedrock/?sec=aiapps&pos=2">
-                Amazon Web Services (AWS)
+              This winter, I'll be working as a software engineer intern at {' '}
+              <a className="link" href="https://www.datadoghq.com/">
+                Datadog
               </a>
-              . Last summer, I interned at{' '}
-              <a className="link" href="https://www.niagarawater.com/">
-                Niagara Bottling
+              .
+              Last summer, I was an SDE intern on the Bedrock team at {' '}
+              <a className="link" href="https://aws.amazon.com/bedrock/">
+                Amazon Web Services (AWS)
               </a>
               .
             </p>

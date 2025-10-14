@@ -1,5 +1,13 @@
 export const projectData = [
   {
+    title: "GitDistributed",
+    start_month: "08-2025",
+    end_month: "12-2025",
+    slug: "git-distributed",
+    tags: ["c++", "tcp", "distributed systems"],
+    link: "https://github.com/CornellDataScience/gitdistributed"
+  },
+  {
     title: "Paper Moderation in Collaboration with arXiv",
     start_month: "01-2025",
     end_month: "05-2025",
