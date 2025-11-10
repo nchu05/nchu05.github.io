@@ -17,11 +17,6 @@ const Home = () => {
               I am interested in software engineering, distributed systems, and systems programming.
             </p>
             <p>
-              This winter, I'll be working as a software engineer intern at {' '}
-              <a className="link" href="https://www.datadoghq.com/">
-                Datadog
-              </a>
-              .
               Last summer, I was an SDE intern on the Bedrock team at {' '}
               <a className="link" href="https://aws.amazon.com/bedrock/">
                 Amazon Web Services (AWS)
@@ -29,7 +24,7 @@ const Home = () => {
               .
             </p>
             <p>
-              Some of my other interests include rock climbing, running, and reading philosophy. Thanks for visiting!
+              Some of my other interests include startups, rock climbing, running, and reading philosophy. Thanks for visiting!
             </p>
           </div>
           <div className="flex-shrink-0">

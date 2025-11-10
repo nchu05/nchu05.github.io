@@ -47,16 +47,6 @@ const Resume = () => {
       <section className="layout-md">
         <h2 className="heading2">Professional Experience</h2>
         <Workplace
-          title="Incoming Software Engineer Intern"
-          company="Datadog"
-          url="https://www.datadoghq.com/"
-          dates="January 2026 – April 2026"
-          location="New York City, NY"
-        >
-          <li>Winter/Spring 2026</li>
-        </Workplace>
-
-        <Workplace
           title="Software Development Engineer Intern"
           company="Amazon Web Services (AWS)"
           url="https://aws.amazon.com/"
