@@ -63,7 +63,7 @@ const Resume = () => {
           dates="January 2026 – April 2026"
           location="New York City, NYC"
         >
-          <li>Metrics Query Planning</li>
+          <li>Building distributed systems for Metrics Query Planning</li>
         </Workplace>
 
         <Workplace
@@ -73,7 +73,7 @@ const Resume = () => {
           dates="May 2025 – August 2025"
           location="Seattle, WA"
         >
-          <li>Developed billing infrastructure for Bedrock Provider Commerce team</li>
+          <li>Developed billing infrastructure for Bedrock Provider Commerce</li>
         </Workplace>
 
         <Workplace
@@ -83,7 +83,7 @@ const Resume = () => {
           dates="May 2024 – August 2024"
           location="Los Angeles, CA"
         >
-          <li>Worked on LLM, RAG, and fine-tuning for Asset Management team</li>
+          <li>Worked on LLM, RAG, and fine-tuning for Asset Management</li>
         </Workplace>
       </section>
     </>
