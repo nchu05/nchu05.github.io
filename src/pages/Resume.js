@@ -47,13 +47,13 @@ const Resume = () => {
       <section className="layout-md">
         <h2 className="heading2">Professional Experience</h2>
         <Workplace
-          title="Incoming Software Engineer Intern"
+          title="Software Engineer Intern"
           company="Databricks"
           url="https://www.databricks.com/"
           dates="May 2026 – August 2026"
-          location="Seattle, WA"
+          location="Mountain View, CA"
         >
-          <li>Incoming Summer 2026</li>
+          <li>Delta Lake</li>
         </Workplace>
 
         <Workplace
@@ -61,9 +61,9 @@ const Resume = () => {
           company="Datadog"
           url="https://www.datadoghq.com/"
           dates="January 2026 – April 2026"
-          location="New York City, NYC"
+          location="New York City, NY"
         >
-          <li>Building distributed systems for Metrics Query Planning</li>
+          <li>Metrics Query Planning</li>
         </Workplace>
 
         <Workplace
@@ -73,7 +73,7 @@ const Resume = () => {
           dates="May 2025 – August 2025"
           location="Seattle, WA"
         >
-          <li>Developed billing infrastructure for Bedrock Provider Commerce</li>
+          <li>Bedrock Commerce</li>
         </Workplace>
 
         <Workplace
@@ -83,7 +83,7 @@ const Resume = () => {
           dates="May 2024 – August 2024"
           location="Los Angeles, CA"
         >
-          <li>Worked on LLM, RAG, and fine-tuning for Asset Management</li>
+          <li>Asset Management</li>
         </Workplace>
       </section>
     </>

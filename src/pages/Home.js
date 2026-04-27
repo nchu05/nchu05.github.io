@@ -17,14 +17,14 @@ const Home = () => {
               I am interested in software engineering, distributed systems, and systems programming.
             </p>
             <p>
-              I'm currently working as a software engineer intern on the Metrics Query Planning team at {' '}
-              <a className="link" href="https://www.datadoghq.com/">
-                Datadog
+              I'm currently working on <a className="link" href="https://docs.databricks.com/aws/en/delta/clustering">Liquid Clustering</a> on the Delta Lake team at {' '}
+              <a className="link" href="https://www.databricks.com/">
+                Databricks
               </a>
               .
             </p>
             <p>
-              Some of my other interests include startups, rock climbing, running, and reading philosophy. Thanks for visiting!
+              Some of my other interests include startups, rock climbing, running, and philosophy. Thanks for visiting!
             </p>
           </div>
           <div className="flex-shrink-0">

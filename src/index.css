@@ -43,9 +43,6 @@ body {
   /* Base font size, smaller than default */
 }
 
-::selection {
-  @apply bg-neutral-200 dark:bg-neutral-600;
-}
 
 .dark {
   color-scheme: dark;
